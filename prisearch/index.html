@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>RNA-Protein Interaction Prediction</title>
+<style>
+div.one{
+	align:center;
+	 border-style: solid;
+    border-width: 1px;
+	margin-left:100px;
+	margin-right:100px;
+	width:80%;
+}
+div.two{
+	 border-style: solid;
+	 height:150px;
+    border-width: 1px;
+	background-color:#00284d;
+}
+div.three{
+	 border-style: solid;
+	 height:50px;
+    border-width: 1px;
+}
+div.four{
+	 border-style: solid;
+	 width:200px;
+	 float:left;
+    border-width: 1px;
+}
+div.five{
+	 border-style: solid;
+	 border-width: 1px;
+	 margin-left:200px;
+}
+table, th, td {
+    border: 1px solid black;
+	border-collapse: collapse;
+
+}
+</style>
+</head>
+<body>
+
+<div align="center" class="one" >
+<a href="http://www.bitmesra.ac.in" >
+<div  class="two">
+<img src="bit_mesra.png" style="width:500px; height:150px; float:left; padding-left:2cm">
+</div></a>
+<div class="three">
+<h2 style="color:#3333ff">Protein-RNA Interaction Prediction (PRISearch)</h2>
+</div>
+<div class="four">
+<table style="width:200px">
+  <tr>
+  <td align="center" style="background-color:#00284d;">
+	<h3><a href="intro.html" style="width:200px;color:#ffffff"><font size="5"> Introduction</a></font> </h3>
+	</td>
+	</tr>
+	<tr>
+	<td align="center" >
+	<h3><a href="example.html" style="text-decoration:none;">Example</a> </h3>
+	</td>
+	</tr>
+	<tr>
+ 
+  <td align="center">
+	<h3><a href="index.html" style="text-decoration:none;">Search</a> </h3>
+	</td>
+	</tr>
+	<tr>
+  <td align="center" >
+	<h3><a href="datasets.html" style="text-decoration:none;">Datasets</a> </h3>
+	</td>
+	</tr>
+	<!--<tr>
+  <td align="center" >
+	<h3><a href="reference.html" style="text-decoration:none;">Reference</a> </h3>
+	</td>
+	</tr>-->
+	
+	<tr>
+  <td align="center">
+	<h3><a href="developer.php" class="dev_link" style="text-decoration:none;" >Developer</a> </h3>
+	</td>
+	</tr>
+	<tr>
+  <td align="center">
+	<h3><a href="contact.html" style="text-decoration:none;">Contact Us</a> </h3>
+	</td>
+	</tr>
+	</table>
+</div>
+<div class="five">
+	<h3>Welcome to PRISearch</h3>
+<h3> Submit a protein sequence and an RNA sequence to predict the interaction.</h3>
+<form name="in" action="check.php" method="post">
+Enter Protein Sequence in PLAIN TEXT format: <a href="#" onclick="document.in.protein.value='AVPETRPNHTIYINNLNEKIKKDELKKSLHAIFSRFGQILDILVSRSLKMRGQAFVIFKEVSSATNALRSMQGFPFYDKPMRIQYAKTDSDIIAKMK'" style="margin-left:25px;">sample</a><br><br>
+<textarea name="protein" rows="7" cols="100">
+</textarea><br><br>
+Enter RNA Sequence in PLAIN TEXT format: <a href="#" onclick="document.in.rna.value='GGCCGGCAUGGUCCCAGCCUCCUCGCUGGCGCCGGCUGGGCAACACCAUUGCACUCCGGUGGCGAAUGGGAC'" style="margin-left:35px;">sample</a><br><br>
+<textarea name="rna" rows="7" cols="100">
+</textarea><br><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+</div>
+</div>
+
+<body>
+</html>
