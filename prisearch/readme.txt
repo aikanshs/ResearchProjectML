@@ -8,4 +8,5 @@ Step 4:	Run xampp application and click Start button in Apache.
 Step 5:	Now open a browser and enter the following link to open the main page of the website:
 		"localhost/prisearch/intro.html"
 Step 6: Go to examples to know how to give input in the Search.
-Step 7: Click on Search for giving protein and rna sequence as input and click submit to get output.
+Step 7: Click on Search for giving protein and RNA sequence as input and click submit to get output.
+Step 8: After giving protein and RNA sequence click on submit to see the output.
